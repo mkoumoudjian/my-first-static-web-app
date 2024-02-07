@@ -14,5 +14,11 @@
         "**/.mvn": true,
         "**/.exchange_modules_tmp": true,
         ".mule": true
-    }
+    },
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
